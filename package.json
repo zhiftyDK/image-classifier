@@ -1,0 +1,27 @@
+{
+  "name": "image-classifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiftyDK/image-classifier.git"
+  },
+  "author": "zhiftyDK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhiftyDK/image-classifier/issues"
+  },
+  "homepage": "https://github.com/zhiftyDK/image-classifier#readme",
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^1.2.6",
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs": "^4.17.0",
+    "canvas": "^2.11.2",
+    "fs": "^0.0.1-security",
+    "sharp": "^0.33.2"
+  }
+}
